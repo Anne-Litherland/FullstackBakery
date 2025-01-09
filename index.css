@@ -1,0 +1,67 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: papyrus;
+  font-size: 24pt;
+  color: #521503;
+  margin: 0;
+  padding-right: 0;
+}
+
+.brand {
+  color: #000000;
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+a {
+  font-family: papyrus;
+  font-size: 16pt;
+  color: #521503;
+}
+
+h1 {
+  color: #000000;
+}
+
+.content {
+  display: flex;
+  flex-grow: 2;
+  gap: 15px;
+  padding-bottom: 260px;
+  color: #521503;
+  font-size: 14pt;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  padding-right: 30px;
+  gap: 6px;
+  font-size: 12pt;
+  font-family: papyrus;
+  color: #521503;
+}
+
+li {
+  border: 6px solid #f4b392;
+  background-color: #f4b392;
+}
+
+.testimonial {
+  background-color: #f0cfbf;
+  color: #000000;
+}
+
+.footer {
+  font-family: papyrus;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
