@@ -10,6 +10,16 @@ header {
   padding-right: 0;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
 .brand {
   color: #000000;
   font-weight: bold;
@@ -30,7 +40,7 @@ h1 {
   display: flex;
   flex-grow: 2;
   gap: 15px;
-  padding-bottom: 260px;
+  padding-bottom: auto;
   color: #521503;
   font-size: 14pt;
 }
